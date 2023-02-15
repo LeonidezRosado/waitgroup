@@ -21,7 +21,9 @@ func main() {
 	//check if the user set the flag
 	//fmt.Println(*msg)
 	//fmt.Println(*num)
-	
+	if *caps {
+		*msg = strings.ToUpper(*msg)
+	}
 	
 	for i := 0; i < *num; i++ {
 		fmt.Println(*msg)
