@@ -22,6 +22,7 @@ func main() {
 	//fmt.Println(*msg)
 	//fmt.Println(*num)
 	
+	
 	for i := 0; i < *num; i++ {
 		fmt.Println(*msg)
 	}
