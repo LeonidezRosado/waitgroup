@@ -46,3 +46,4 @@ func main() {
 		fmt.Println(*msg)
 	}
 }
+///how do i run the go file in vscode
